@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-imf",
-  "version": "0.1.0",
-  "description": "IMF MCP — wraps IMF SDMX JSON REST API (dataservices.imf.org)",
+  "version": "0.1.1",
+  "description": "IMF MCP — wraps the IMF SDMX 2.1 REST API (api.imf.org)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-imf": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "imf"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-imf"
+    "url": "git+https://github.com/pipeworx-io/mcp-imf.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d6a62eb50e9f81af859cc4fc399b6cb5ad676a5c15f0d88101561eb6ef7fd920",
+    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
   }
 }
