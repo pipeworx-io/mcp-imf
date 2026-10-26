@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-imf",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "IMF MCP — wraps the IMF SDMX 2.1 REST API (api.imf.org)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-acbb6b45fb3bf68cc3e6e56a01ac4f2c8c0eb0f1ecd3af05259cd8a27e1578d1",
-    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
+    "sourceHash": "v1-55e7b804638b0c2ed3e09e498cedad693637110e74dc04fa4c289623c3211467",
+    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
   }
 }
