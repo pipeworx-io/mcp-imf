@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-imf",
-  "version": "0.2.1",
-  "description": "IMF MCP — wraps the IMF SDMX 2.1 REST API (api.imf.org)",
+  "version": "0.2.2",
+  "description": "Unofficial IMF MCP — wraps the IMF SDMX 2.1 REST API (api.imf.org)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "imf",
     "gatewaySlug": "imf",
-    "sourceHash": "v1-a8299c521a808c1f17460a2f7789bbd7663ac9bf44fefe6eee198fd5d7521b42",
-    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
+    "sourceHash": "v1-783a3a93caa9d0a1afc3ab354c2be95177e49b577f2f159e5cdcd92c020527a2",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }

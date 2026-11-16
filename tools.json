@@ -17,7 +17,7 @@
     }
   },
   {
-    "name": "get_data",
+    "name": "imf_get_data",
     "description": "Fetch an IMF time series. Identify the series by dataset plus a `dimensions` map of named codes, e.g. get_data({dataset:\"CPI\", dimensions:{COUNTRY:\"USA\", INDEX_TYPE:\"CPI\", COICOP_1999:\"_T\", TYPE_OF_TRANSFORMATION:\"IX\", FREQUENCY:\"M\"}, start:\"2024-01\"}). Dimension names and order differ per dataset — use search_indicators to see what a dataset accepts. Any dimension you omit is left open, returning every code for it. Returns observations as {period, value} plus the dimension values of each series.",
     "inputSchema": {
       "type": "object",
